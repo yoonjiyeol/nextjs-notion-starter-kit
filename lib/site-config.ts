@@ -1,14 +1,14 @@
 import * as types from './types'
 
 export interface SiteConfig {
-  rootNotionPageId: string
-  rootNotionSpaceId?: string
+  rootNotionPageId: fd2e6d670ea44967a7ea29c3f0047e5e
+  rootNotionSpaceId?: null
 
-  name: string
-  domain: string
-  author: string
+  name: gonggamtour
+  domain: www.gktravel.kr
+  author: g102
   description?: string
-  language?: string
+  language?: korean
 
   twitter?: string
   github?: string
@@ -18,13 +18,13 @@ export interface SiteConfig {
   zhihu?: string
   mastodon?: string;
 
-  defaultPageIcon?: string | null
-  defaultPageCover?: string | null
-  defaultPageCoverPosition?: number | null
+  defaultPageIcon?: null
+  defaultPageCover?: null
+  defaultPageCoverPosition?: 0.5
 
-  isPreviewImageSupportEnabled?: boolean
+  isPreviewImageSupportEnabled?: true
   isTweetEmbedSupportEnabled?: boolean
-  isRedisEnabled?: boolean
+  isRedisEnabled?: false
   isSearchEnabled?: boolean
 
   includeNotionIdInUrls?: boolean
