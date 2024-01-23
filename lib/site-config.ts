@@ -1,7 +1,7 @@
 import * as types from './types'
 
 export interface SiteConfig {
-  rootNotionPageId: fd2e6d670ea44967a7ea29c3f0047e5e
+  rootNotionPageId: Home-fd2e6d670ea44967a7ea29c3f0047e5e
   rootNotionSpaceId?: null
 
   name: gonggamtour
