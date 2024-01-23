@@ -5,7 +5,7 @@ export interface SiteConfig {
   rootNotionSpaceId?: null
 
   name: gonggamtour
-  domain: www.gktravel.kr
+  domain: https://www.gktravel.kr
   author: g102
   description?: string
   language?: korean
